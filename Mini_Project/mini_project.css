@@ -8,50 +8,58 @@ html{
 h1{
     color: #756A9D;
     margin-top: 30px;
+    font-size: 4vw;
 }
 
 .wp{
     background-color: white;
-    width:900px;
-    height: 450px;
+    width:65%;
+    height: 500px;
     border-radius: 100px;
     margin:auto;
-    margin-top: 100px;
-    padding: 20px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding: 15px;
     text-align: center; 
 }
 
 .inp{
-    width: inherit;
+    width: 100%;
     height: 200px;
     position: relative;
     top: 40px;
+    
 }
 
 .inp input{
     position:relative;
     top:50px;
-    font-size: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+    font-size: 1.5vw;
+    margin-left: 10%;
+    margin-right: 10%;
     color: #756A9D;
     padding: 10px;
     border: none;
     border-bottom: 2px solid #756A9D;
     outline: none;
+    width: 20%;
     
 }
 
+
 span{
-    position: absolute;
-    bottom: 80px;
+    position: relative;
+    bottom: 65px;
     margin-left: auto;  
-    margin-right: auto;  
-    
+    margin-right: auto;
+    font-size: 1vw;  
+    width: 24%;
 }
+
+
 #sp1{
     position: absolute;
-    left: 150px;
+    left: 160px;
     color: red;
 }
 #sp2{
@@ -61,20 +69,111 @@ span{
 }
     
 .btn{
-    width: inherit;
-    height: 60px;
+    height: 55px;
     position: relative;
-    top: 100px;
+    top: 65px;
+    width: 65vw;
    
 }
 .btn button{
     position: relative;
     background-color: #756A9D;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 3vw;
     color: white;
     border: none;
     border-radius: 30px;
     padding: 10px 40px;
     cursor: pointer;
+}
+
+/* Phone screen version */
+
+@media (max-width:500px) {
+    
+    
+    h1{
+        color: #756A9D;
+        margin-top: 30px;
+        font-size: 4vw;
+    }
+    
+    .wp{
+        background-color: white;
+        width:65%;
+        height: 450px;
+        border-radius: 100px;
+        margin:auto;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        padding: 15px;
+        text-align: center; 
+        
+    }
+    
+    .inp{
+        width: 100%;
+        height: 200px;
+        position: relative;
+        top: 40px;
+        
+    }
+    
+    .inp .lh .wgh{
+        position:relative;
+        top:50px;
+        right: 50px;
+        font-size: 40px;
+        margin-left: 2%;
+        margin-right: 2%;
+        color: #756A9D;
+        padding: 10px;
+        border: none;
+        border-bottom: 2px solid #756A9D;
+        outline: none;
+        width: 20%;
+        
+    }
+    
+    
+    span{
+        position: relative;
+        bottom: 100px;
+        margin-left: auto;  
+        margin-right: auto;
+        font-size: 1vw;  
+        width: 20%;
+    }
+    
+    
+    #sp1{
+        position: absolute;
+        left: 50px;
+        color: red;
+    }
+    #sp2{
+        position: absolute;
+        right: 50px;
+        color: red;
+    }
+        
+    .btn{
+        height: 55px;
+        position: relative;
+        top: 80px;
+        width: 65vw;
+       
+    }
+    .btn button{
+        position: relative;
+        background-color: #756A9D;
+        font-weight: bold;
+        font-size: 3vw;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 40px;
+        cursor: pointer;
+    }
+    
 }
