@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="Mp.css">
+</head>
+<body>
+   <header>
+        <ion-icon class="srchicon" name="search-outline"></ion-icon>        
+        <input class="srch" type="search" placeholder="Photo gallery">
+        <button class="sp">Sign Up</button>
+        <button class="ln">Log in</button>
+    </header>
+    <hr> 
+
+    <div class="bar_one">
+        <div><ion-icon name="person-outline"></ion-icon><a href="">Your Work</a></div>
+        <div><ion-icon name="albums-outline"></ion-icon><a href="">Pens</a></div>
+        <div><ion-icon name="bag-check-outline"></ion-icon><a href="">Projects</a></div>
+        <div><ion-icon name="bar-chart-outline"></ion-icon><a href="">Collections</a></div>
+    </div>
+    
+    <div class="bar_two">
+
+        <label for="slc">Sort By</label>  <select name="slc" id="slc">
+            <option value="#">Relevance & Popularity</option>
+            <option value="#">Newest First</option>
+        </select>
+
+        <label for="slc">SEARCH DEPTH</label>  <select name="slc" id="slc">
+            <option value="#">Everything</option>
+            <option value="#">Title & description</option>
+            <option value="#">Code Only</option>
+        </select>
+        
+        <label for="slc">INCLUDE FORKS?</label>   <input type="checkbox" name="chk" id="chk">
+
+    </div>
+
+    <div id="toggle"></div>
+    <div id="side_bar">
+        <h1>CodePen</h1>
+        <hr class="cs">
+        <ul>
+            <li>Search Pen</li>
+            <li>Challenges</li>
+            <li>Spark</li>
+        </ul>
+        <div>
+            <img  class="imgsidebar" src="imgs/pub.jpg" alt="Art">
+        </div>
+        
+    </div>
+    
+    <article>
+            <div class="continer">
+                <div class="cont">
+                    <div class="content1">
+                        <img class="img1" src="Imgs/OIP (8).jfif">
+                        <div class="logos"> 
+                            <img class="logo1" src="Imgs/pinterest.png"  width="38px" height="38px"> 
+                            <p class="fro">Picsart</p> <p class="tp">Animals</p>    
+                        </div>
+                    </div>
+                </div>
+           
+                <div class="cont">
+                    <div class="content1">
+                        <img class="img1" src="Imgs/OIP (6).jfif">
+                        <div class="logos"> 
+                            <img class="logo1" src="Imgs/petals.png" style="color:white;"  width="38px" height="38px"> 
+                            <p class="fro">Photobox</p> <p class="tp">Art</p>    
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="cont">
+                    <div class="content1">
+                        <img class="img1" src="Imgs/OIP (5).jfif">
+                        <div class="logos"> 
+                            <img class="logo1" src="Imgs/abstract-shape.png"  width="38px" height="38px"> 
+                            <p class="fro">
+                                Treehouse: Photo Gallery</p> <p class="tp">Animals</p>    
+                        </div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <div class="content1">
+                        <img class="img1" src="Imgs/OIP (4).jfif">
+                        <div class="logos"> 
+                            <img class="logo1" src="Imgs/symbol.png" width="38px" height="38px"> 
+                            <p class="fro">EU</p> <p class="tp">Nature</p>    
+                        </div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <div class="content1">
+                        <img class="img1" src="Imgs/OIP (1).jfif">
+                        <div class="logos"> 
+                            <img class="logo1" src="Imgs/abscra.png"  width="38px" height="38px"> 
+                            <p class="fro">Atome</p> <p class="tp">Art</p>    
+                        </div>
+                    </div>
+                </div>
+                <div class="cont">
+                    <div class="content1">
+                        <img class="img1" src="Imgs/OIP (9).jfif">
+                        <div class="logos"> 
+                            <img class="logo1" src="Imgs/cross.png"  width="38px" height="38px"> 
+                            <p class="fro">Cross</p> <p class="tp">funny</p>    
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </article>
+
+    <div class="btn_move">
+        <button class="btn_m">Next <ion-icon name="chevron-forward-outline"></ion-icon></button>
+    </div>
+
+    <footer>
+        <div class="Contact">
+            <p class="rw"><span class="name">CodePen</span> <span class="comment">About</span><span class="comment">Blog</span><span class="comment">Podcast</span><span class="comment">Documentation</span><span class="comment">Support</span><span class="comment">Shop</span></p>
+            <p class="rw"><span class="name">For</span><span class="comment">Teams</span><span class="comment">Education</span><span class="comment">Privacy</span><span class="comment">EmbedsAsset </span><span class="comment">Hosting</span></p>
+            <p class="rw"><span class="name">Social</span><span class="comment">YouTube</span><span class="comment">Twitter</span><span class="comment">Instagram</span><span class="comment">Mastodon</span></br></p>
+            <p class="rw"><span class="name">Community</span><span class="comment">Spark</span><span class="comment">Challenges</span><span class="comment">Topics</span><span class="comment">Code-of-Conduct</span></p>
+        </div>
+        <div class="About_Us">
+            <ion-icon  name="logo-codepen" class="lgab" style="color:white;"></ion-icon>
+            <p class="fot">CodePen</p>
+            <p class="comment1">&copy; <script>document.write(new Date().getFullYear());</script>,CodePen</p>
+            <p class="comment1">Demo or it didn't happen.</p>
+                <p class="comment1">Terms of Service · Privacy Policy</p>
+        </div>
+
+   
+    
+    </footer>
+</body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="mp.js"></script>
+</html>
